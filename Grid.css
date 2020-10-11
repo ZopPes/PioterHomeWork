@@ -1,0 +1,17 @@
+:root{
+
+}
+.Grid {
+    background: aqua;
+    display: grid;
+    
+}
+
+.Grid-Column8{
+    grid-template-columns:repeat(8,1fr);
+
+}
+.Grid-Row6{
+    grid-template-rows:repeat(6,1fr);
+
+}
