@@ -1,28 +1,56 @@
 :root{
+--WH:175px;
 
 }
 .Grid {
-    background: aqua;
     display: grid;
 
 }
 
 .Grid * {
     background: bisque;
+color: white;
 
+}
 
+.rebeccapurple-Item{
+    background: rebeccapurple;
+}
+
+.darkgreen-Item{
+    background: darkgreen;
+}
+
+.darkred-Item{
+    background: darkred;
+}
+
+.limegreen-Item{
+    background: limegreen;
+}
+
+.indianred-Item{
+    background: indianred;
+}
+
+.darkorange-Item{
+    background: darkorange;
+}
+
+.orange-Item{
+    background: orange;
 }
 
 .Gap{
-    gap: 1ex;
+    gap: 10px;
 }
 
 .Grid-Column8{
-    grid-template-columns:repeat(7,1fr);
+    grid-template-columns:repeat(7,var(--WH));
 
 }
 .Grid-Row6{
-    grid-template-rows:repeat(6,1fr);
+    grid-template-rows: repeat(6,var(--WH));
 
 }
 
