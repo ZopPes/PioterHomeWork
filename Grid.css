@@ -4,14 +4,49 @@
 .Grid {
     background: aqua;
     display: grid;
-    
+
+}
+
+.Grid * {
+    background: bisque;
+
+
+}
+
+.Gap{
+    gap: 1ex;
 }
 
 .Grid-Column8{
-    grid-template-columns:repeat(8,1fr);
+    grid-template-columns:repeat(7,1fr);
 
 }
 .Grid-Row6{
     grid-template-rows:repeat(6,1fr);
 
+}
+
+.menu{
+    background: darkgreen;
+}
+
+.Grid-Column-Span-any{
+    grid-column: 1 / span end  ;
+
+}
+
+.Grid-Column-Span2{
+grid-column: span 2;
+}
+
+.Grid-Row-Span2{
+    grid-row: span 2;
+}
+
+.Grid-Column-Span3{
+    grid-column: span 3;
+}
+
+.Grid-Row-Span3{
+    grid-row: span 3;
 }
